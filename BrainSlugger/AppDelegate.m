@@ -1,8 +1,4 @@
-//  AppDelegate.m
-//  SantaFace
-//
-//  Created by Tadas Z on 11/30/12.
-//  DevBridge
+
 
 #import "AppDelegate.h"
 

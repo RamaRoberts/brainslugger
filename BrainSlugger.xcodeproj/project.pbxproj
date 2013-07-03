@@ -84,7 +84,7 @@
 			children = (
 				3EB80F4E16690F4600AB7B3C /* icon@2x.png */,
 				3EB80F4C16690F4200AB7B3C /* icon.png */,
-				3EB80F121668DA7900AB7B3C /* SantaFace */,
+				3EB80F121668DA7900AB7B3C /* BrainSlugger */,
 				3EB80F0B1668DA7800AB7B3C /* Frameworks */,
 				3EB80F091668DA7800AB7B3C /* Products */,
 			);
@@ -115,7 +115,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3EB80F121668DA7900AB7B3C /* SantaFace */ = {
+		3EB80F121668DA7900AB7B3C /* BrainSlugger */ = {
 			isa = PBXGroup;
 			children = (
 				3EB80F321668FD8300AB7B3C /* DetectFace.h */,
@@ -128,7 +128,7 @@
 				3EB80F281668DA7900AB7B3C /* ViewController.m */,
 				3EB80F131668DA7900AB7B3C /* Supporting Files */,
 			);
-			path = SantaFace;
+			path = BrainSlugger;
 			sourceTree = "<group>";
 		};
 		3EB80F131668DA7900AB7B3C /* Supporting Files */ = {
@@ -161,7 +161,7 @@
 			dependencies = (
 			);
 			name = BrainSlugger;
-			productName = SantaFace;
+			productName = BrainSlugger;
 			productReference = 3EB80F081668DA7800AB7B3C /* BrainSlugger.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -300,8 +300,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SantaFace/BrainSlugger-Prefix.pch";
-				INFOPLIST_FILE = "SantaFace/BrainSlugger-Info.plist";
+				GCC_PREFIX_HEADER = "BrainSlugger/BrainSlugger-Prefix.pch";
+				INFOPLIST_FILE = "BrainSlugger/BrainSlugger-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = BrainSlugger;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -315,8 +315,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: DevBridge";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DevBridge";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SantaFace/BrainSlugger-Prefix.pch";
-				INFOPLIST_FILE = "SantaFace/BrainSlugger-Info.plist";
+				GCC_PREFIX_HEADER = "BrainSlugger/BrainSlugger-Prefix.pch";
+				INFOPLIST_FILE = "BrainSlugger/BrainSlugger-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = BrainSlugger;
 				PROVISIONING_PROFILE = "C4D369D2-25A1-4B18-8ED9-63047667AD63";
